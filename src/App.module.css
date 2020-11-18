@@ -6,4 +6,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }  
+.image{
+width:370px;
+margin-top:30px;
+}
+@media(max-width:770px){
+    .Container{
+        margin: 0 40px;
+    }
+    .image{
+        width:100%;
+    }
+}
